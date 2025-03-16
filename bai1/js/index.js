@@ -1,3 +1,14 @@
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Script loaded!");
+
+    let items = document.querySelectorAll('.item');
+    let descriptions = document.querySelectorAll('.description');
+
+    console.log("Items:", items.length);
+    console.log("Descriptions:", descriptions.length);
+});
+
+
 // toggle Background active
 const bannerNavigator = name => {
     let items = document.querySelectorAll('.item');
