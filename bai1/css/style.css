@@ -111,3 +111,16 @@ body{
     cursor: pointer;
     z-index: 900;
 }
+
+.banner .item .description{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size:1.3rem;
+    line-height: 2rem;
+    font-weight: 300;
+    opacity: 0;
+    visibility: hidden;
+}
