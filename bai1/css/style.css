@@ -6,3 +6,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --primary: #19161f;
+}
+
+body{
+    position: relative;
+    background-color: var(--primary);
+    font-family: 'Roboto', 'sans-serif';
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
