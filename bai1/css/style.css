@@ -60,3 +60,8 @@ body{
     align-items: center;
 }
 
+.banner .item .title{
+    color: #ffffff;
+    font-size: 8rem;
+    z-index: 900;
+}
