@@ -16,6 +16,17 @@ const bannerNavigator = name => {
     });
 }
 
+const bannerClose = () => {
+    let items = document.querySelectorAll('.item');
+    let descriptions = document.querySelectorAll('.description');
+    items.forEach(item=>{
+        item.classList.remove('active');
+    })
+    descriptions.forEach(descriptions=>{
+        descriptions.classList.remove('active');
+    })
+};
+
 // switch Background
 window.addEventListener('load', ()=>{
     const buttons = document.querySelectorAll('.name');
