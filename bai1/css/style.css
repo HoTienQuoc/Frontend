@@ -139,10 +139,10 @@ body{
     z-index: 1000;
 }
 
-.banner .close{
+.banner .close {
     position: absolute;
-    bottom: 100px;
-    right: 100px;
+    bottom: 50px;
+    right: 50px;
     color: #ffffff;
     font-size: 3rem;
     z-index: 1100;
@@ -151,7 +151,7 @@ body{
     transition: ease-in-out 0.5s;
 }
 
-.banner .close.active{
+.banner .close.active {
     opacity: 1;
     visibility: visible;
 }
