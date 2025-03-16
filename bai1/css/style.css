@@ -138,3 +138,20 @@ body{
     visibility: visible;
     z-index: 1000;
 }
+
+.banner .close{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    color: #ffffff;
+    font-size: 3rem;
+    z-index: 1100;
+    opacity: 0;
+    visibility: hidden;
+    transition: ease-in-out 0.5s;
+}
+
+.banner .close.active{
+    opacity: 1;
+    visibility: visible;
+}
