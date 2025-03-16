@@ -29,3 +29,10 @@ body{
     grid-gap: 10px;
     overflow: hidden;
 }
+.banner .item{
+    position: relative;
+    width: 33vw;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s;
+}
