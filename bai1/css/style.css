@@ -60,6 +60,14 @@ body{
     align-items: center;
 }
 
+.banner .item:nth-of-type(5){
+    grid-row: 3/4;
+}
+
+.banner .item:nth-of-type(6){
+    grid-row: 4/6;
+}
+
 .banner .item .title{
     color: #ffffff;
     font-size: 8rem;
