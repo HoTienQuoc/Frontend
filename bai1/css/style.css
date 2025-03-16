@@ -56,5 +56,6 @@ body{
     grid-row: 3/4;
     width: 66vw;
     display: flex;
+    justify-content: center;
 }
 
